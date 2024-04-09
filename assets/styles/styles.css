@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:wght@700&family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Poppins:wght@700&family=Young+Serif&display=swap');
+
+body {
+	background-color: hsl(30, 54%, 90%);
+	font-family: "Outfit", sans-serif;
+	font-size: 16px;
+}
+
+h1 {
+	font-family: "Young Serif", serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 30px;
+}
+
+.container {
+	margin-top: 30px;
+	padding: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: white;
+	border-radius: 20px;
+	width: 70%;
+	margin-bottom: 20px;
+}
+
+.display-image img {
+	width: 100%;
+	border-radius: 15px;
+}
+
+.preparation-time {
+	padding: 20px;
+	background-color: hsl(30, 89%, 96%);
+	border-radius: 10px;
+	margin: 0;
+}
+
+h4, h2 {
+	color: hsl(14, 45%, 36%);
+}
+
+h2 {
+	font-family: "Young Serif", serif;
+}
+
+.preparation-time ul,
+.ingredients ul {
+	padding-left: 20px;
+}
+
+.preparation-time li::marker,
+.ingredients li::marker {
+	margin-right: 50px;
+	color: hsl(14, 45%, 36%);
+	margin-left: 10px;
+}
+
+.ingredients {
+	border-bottom: 1px rgb(227, 226, 226) solid;
+}
+
+ol {
+	padding: 0;
+}
+
+ol li {
+	counter-increment: my-counter;
+	text-align: justify;
+	margin-left: 20px;
+}
+
+ol li::marker {
+	/* content: counter(my-counter); */
+	color: hsl(14, 45%, 36%);
+	font-weight: bold;
+}
+
+li p {
+	margin-left: 15px;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+.instructions {
+	border-bottom: 1px rgb(227, 226, 226) solid;
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+table tr {
+	border-bottom: 1px rgb(227, 226, 226) solid;
+}
+
+table th {
+	padding: 10px;
+	padding-left: 5%;
+	font-weight: normal;
+	text-align: left;
+}
+
+table td {
+	text-align: left;
+	font-weight: bold;
+	color: hsl(14, 45%, 36%);
+}
+
+table tr:last-child {
+	border-bottom: none;
+}
